@@ -1,123 +1,98 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 /* resets de utilidad */
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-html,body{
+html, body {
     font-family: "Montserrat", sans-serif;
+    color: #3c3c3c; /* Texto principal en un gris oscuro */
 }
 
-h1{
-    font-size: 2rem;
+/* Encabezados y párrafos */
+
+h1, h2, h3, h4, h5, h6 {
+    color: #4b3621; /* Color marrón suave para encabezados */
 }
 
-h2{
-    font-size: 1.8rem;
-}
-
-h3{
-    font-size: 1.6rem;
-}
-
-h4{
-    font-size: 1.4rem;
-}
-
-h5{
-    font-size: 1.2rem;
-}
-
-h6{
-    font-size: 1rem;
-}
-
-p{
+p {
     font-size: 0.8rem;
+    color: #3c3c3c; /* Texto en gris oscuro */
 }
 
-a{
-    color:black;
-    text-decoration:none;
+a {
+    color: #8b5e3c; /* Color de enlaces en marrón tierra */
+    text-decoration: none;
 }
 
-.center{
+/* Alineación y encabezados */
+
+.center {
     text-align: center;
 }
 
-.head{
+.head {
     padding: 5px 10px;
     font-size: 0.8rem;
-    background-color: #5e35f2d2;
+    background-color: #d3b8ae; /* Fondo de encabezados en marrón claro */
+    color: #ffffff; /* Texto blanco */
 }
 
-.container-head{
+.container-head {
     margin-top: 50px;
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
-.fa-solid{
-    color: rgb(77, 60, 139);
-    font-size: 2.5rem;
+/* Iconos y logotipos */
+
+.fa-solid, .fa-moon {
+    color: #8b5e3c; /* Color marrón tierra */
 }
 
-
-.fa-moon{
-    color:black;
-    font-size: 1.3rem;
-}
-
-
-
-
-
-
-.logo{
+.logo {
     font-size: 1.5rem;
     text-decoration: none;
     font-weight: bold;
-    color: black;
+    color: #3c3c3c; /* Texto del logotipo en gris oscuro */
     margin-top: 0px;
     padding: 0 10px;
 }
 
-
-.dark-btn{
-    border:none;
+.dark-btn {
+    border: none;
     background-color: transparent;
     cursor: pointer;
 }
 
-
-
 /* Container */
 
-.container{
+.container {
     margin: auto;
     max-width: 1300px;
     overflow: auto;
     padding: 0 20px;
 }
 
-/* section header*/
+/* Showcase section */
 
-#showcase{
-    background-color: #481CA6;
+#showcase {
+    background-color: #d3b8ae; /* Fondo en marrón claro */
 }
 
-.showcase-row{
-    display:flex;
+.showcase-row {
+    display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-direction: row;
@@ -125,25 +100,25 @@ a{
     margin-bottom: 100px;
 }
 
-.showcase-row-hi h1{
+.showcase-row-hi h1 {
     font-weight: 400;
     text-transform: uppercase;
+    color: #4b3621; /* Texto en marrón suave */
 }
 
-.container-anim{
+.container-anim {
     margin-top: 20px;
     display: inline-block;
     width: 440px;
 }
 
-.tipear{
+.tipear {
     overflow: hidden;
-    border-right: .15em solid black;
+    border-right: .15em solid #8b5e3c; /* Bordes en marrón tierra */
     white-space: nowrap;
     font-size: 2.5rem;
     width: 0;
     animation: typing 5s forwards infinite, tilt 1s infinite;
-    ;
 }
 
 @keyframes typing {
@@ -152,85 +127,85 @@ a{
 }
 
 @keyframes tilt {
-    0%{ border-right: .15em solid #5E35F2;}
+    0%{ border-right: .15em solid #8b5e3c; }
 }
 
 .showcase-row-hi h4 {
     font-size: 1em;
     margin-top: 15px;
     margin-bottom: 30px;
+    color: #3c3c3c; /* Texto en gris oscuro */
 }
 
-.row-hi-btn{
+.row-hi-btn {
     display: flex;
     justify-content: flex-start;
     text-align: center;
     align-items: center;
 }
 
-.row-hi-btn a{
+.row-hi-btn a {
     text-decoration: none;
 }
 
-#btn{
-    background-color: black;
+#btn {
+    background-color: #3c3c3c; /* Fondo de botón en gris oscuro */
     text-align: center;
     padding: 15px 30px;
     color: white;
-    box-shadow: -7px 12px 36px 6px rgba(0,0,0,0.31);;
+    box-shadow: -7px 12px 36px 6px rgba(0,0,0,0.31);
 }
 
-#contact{
+#contact {
     padding: 0px 30px;
-    color: black;
+    color: #3c3c3c; /* Texto en gris oscuro */
 }
 
-
-
-.showcase-row-avatar img{
+.showcase-row-avatar img {
     border-radius: 70%;
     width: 250px;
-    border: 10px solid white;
+    border: 10px solid #ffffff; /* Bordes blancos */
     box-shadow: -1px 0px 18px 15px rgba(0,0,0,0.12);
-   
 }
 
-/* sobre mi */
+/* Sobre mi section */
 
-.sobre-mi-row{
+.sobre-mi-row {
     display: flex;
     margin-top: 50px;
     justify-content: space-around;
 }
 
-#sobre-mi-row-bio{
+#sobre-mi-row-bio {
     flex-basis: 50%
 }
 
-#sobre-mi-row-bio h4{
+#sobre-mi-row-bio h4 {
     font-weight: 500;
     font-size: 2rem;
+    color: #4b3621; /* Texto en marrón suave */
 }
 
-#camila{
+#camila {
     text-decoration: underline;
-    text-decoration-color: #5E35F2;
+    text-decoration-color: #8b5e3c; /* Subrayado en marrón tierra */
 }
 
-#sobre-mi-row-bio p{
+#sobre-mi-row-bio p {
     font-weight: 500;
     font-size: 1rem;
+    color: #3c3c3c; /* Texto en gris oscuro */
 }
 
-.sobre-mi-row-exp{
+.sobre-mi-row-exp {
     display: flex;
     justify-content: center;
     text-align: center;
     flex-direction: column;
 }
 
-#container-exp{
-    background-color: #5E35F2;
+#container-exp {
+    background-color: #8b5e3c; /* Fondo en marrón tierra */
     border-radius: 50%;
     width: 105px;
     height: 100px;
@@ -238,24 +213,20 @@ a{
     left: 60px;
     z-index: 2;
 }
-.centerheader{
-    margin-bottom: 20px;
-}
 
-
-.nnumber{
+.nnumber {
     position: absolute;
     left: 16px;
     bottom: 0px;
     font-size: 8rem;
-    color: rgb(49, 49, 49)
+    color: rgb(49, 49, 49);
 }
 
-#experiencia{
+#experiencia {
     font-weight: 900;
 }
 
-.sobre-mi-row-datos{
+.sobre-mi-row-datos {
     padding-top: 80px;
     display: flex;
     flex-direction: row;
@@ -265,40 +236,38 @@ a{
     flex-wrap: wrap;
 }
 
-.sobre-mi-row-datos h6{
+.sobre-mi-row-datos h6 {
     color: grey;
     font-size: 0.7rem;
 }
 
+/* Servicios section */
 
-
-
-/* servicios */
-
-.servicios-row{
+.servicios-row {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
-.services{
+.services {
     margin: 15px;
     padding-top: 60px;
     display: inline-block;
     flex-direction: column;
-    justify-content:center;
+    justify-content: center;
     text-align: center;
     width: 320px;
     padding-bottom: 50px;
+    background-color: #f4e4d7; /* Fondo de servicios en beige */
 }
 
-.section-content-grey{
-  background-color: rgb(236, 236, 236);
+.section-content-grey {
+    background-color: #ececec; /* Fondo gris claro */
 }
 
-/* resumen */
+/* Resumen section */
 
-#resumen-column{
+#resumen-column {
     margin-top: 40px;
     display: flex;
     flex-direction: row;
@@ -306,111 +275,73 @@ a{
     justify-content: center;
 }
 
-.My-education-column{
+.My-education-column, .My-experience-column {
     flex-basis: 50%;
-    border-left: 2px solid  rgb(49, 7, 77);
+    border-left: 2px solid #8b5e3c; /* Borde izquierdo en marrón tierra */
     padding: 30px;
 }
 
-
-.educacion{
-    border-top: 1px solid rgb(236, 236, 236);
+.educacion, .experiencia {
+    border-top: 1px solid #ececec; /* Borde superior en gris claro */
     margin-top: 30px;
     padding: 20px;
 }
 
-.My-experience-column{
-    border-left: 2px solid  rgb(49, 7, 77);
-    flex-basis: 50%;
-    padding: 30px;
-}
-
-.experiencia{
-    border-top: 1px solid rgb(236, 236, 236);
-    margin-top: 30px;
-    padding: 20px;
-}
-
-.educacion h5{
+.educacion h5, .experiencia h5 {
     font-size: 1rem;
+    color: #4b3621; /* Texto en marrón suave */
 }
 
-.educacion h6{
+.educacion h6, .experiencia h6 {
     font-size: 0.8rem;
     margin-top: 10px;
+    color: #3c3c3c; /* Texto en gris oscuro */
 }
 
-.experiencia p{
+.educacion p, .experiencia p {
     margin-top: 10px;
+    color: #3c3c3c; /* Texto en gris oscuro */
 }
 
-.experiencia h5{
-    font-size: 1rem;
-}
+/* Skills section */
 
-.experiencia h6{
-    font-size: 0.8rem;
-    margin-top: 10px;
-}
-
-.educacion p{
-    margin-top: 10px;
-}
-
-/* skills */
-
-.fa-bootstrap{
-    color: #740DFC;
-}
-
-.fa-python{
-    color: #31485D;
-}
-.fa-react{
-    color: #239FBD;
-}
-.fa-vuejs{
-    color: #55CA96;
-}
-.fa-js{
-    color: #F7E018;
-}
-.fa-html5{
-    color: #FC490B;
-}
-.skill{
+.skill {
     font-size: 2.5rem;
     display: flex;
     text-align: center;
     justify-content: center;
 }
 
-.skillbars{
-    display:flex;
+.skillbars {
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     padding-bottom: 60px;
 }
 
-.skills-container{
-    display:flex;
+.skills-container {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     padding: 20px;
 }
 
-.skillbars p{
+.skillbars p {
     font-size: 1rem;
     font-weight: bold;
-    margin-top:30px;
+    margin-top: 30px;
     margin-bottom: 20px;
 }
 
+/* Mantener colores originales de iconos de habilidades */
 
+.skillbars i {
+    color: inherit;
+}
 
-
+/* Portfolio section */
 /* portfolio */
 
 
@@ -420,13 +351,13 @@ a{
     padding: .7rem 3rem;
     font-size: .7rem;
     color: #0c0c0c;
-    background: #5e35f29d;
+    background: #d3b8ae;
     cursor: pointer;
 }
 
 .btn:hover {
     letter-spacing: .1rem;
-    background-color: #4f2ab3;
+    background-color: #99766a;
 }
 
 
@@ -477,7 +408,7 @@ a{
 
 
 .portfolio #proyects-row-wrap .box .content .title:hover {
-    color: #481CA6;
+    color: #d3b8ae;
 }
 
 .portfolio  #proyects-row-wrap .box .content span {
@@ -541,7 +472,7 @@ a{
 /* contacto */
 
 #contacto{
-    background-color:#5E35F2;
+    background-color:#e2e2e2;
 }
 
 .contact-row{
@@ -580,49 +511,10 @@ a{
     font-size: 1rem
 }
 
-#form{
-   flex-basis: 60%;
-   padding: 0  35px;
-}
-
-#form h3{
-    margin-bottom: 20px;
-    font-size: 1.6rem;
-}
-
-#form h5{
-    font-size: 0.8rem;
-    color: rgb(31, 30, 30);
-    margin-top: 10px;
-}
-
-.textarea{
-    background-color:#5E35F2;
-    border: none;
-    border-bottom: 1px solid rgb(61, 60, 60);
-    margin-top: 10px;
-    width: 100%;
-}
-
-textarea{
-    background-color: #411fbd;
-    border: none;
-    border-bottom: 1px solid rgb(29, 28, 28);
-    height: 100px;
-}
-
-#submit{
-    margin-top: 10px;
-    background-color: black;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-}
-
 /* footer */
 
 #footer{
-    background-color: black;
+    background-color:#d3b8ae;
     color: white;
 }
 
@@ -633,7 +525,7 @@ textarea{
 }
 
 #footer-row a{
-    color: #5E35F2;
+    color:#8b5e3c;
 }
 
 .ul-header.active {
@@ -890,4 +782,22 @@ textarea{
         overflow-y: scroll;
     }
 }
+
+/* Footer section */
+
+footer {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 15px;
+}
+
 

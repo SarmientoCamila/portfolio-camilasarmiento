@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/12469c1105.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <title>Portfolio Camila Sarmiento</title>
 </head>
+
 <body>
     <header id="mainheader">
-        
+
         <div id="showcase" class="section-content-color ">
             <div class="container">
                 <div class="showcase-row">
@@ -22,12 +27,13 @@
                         <h4>Buenos aires, Argentina</h4>
                         <div class="row-hi-btn">
                             <a href="#Portfolio" id="btn">Mis Proyectos</a>
-                            <a href="#contacto" id="contact">Contactame <i class="fa fa-arrow-circle-o-down" aria-hidden="true"></i>
+                            <a href="#contacto" id="contact">Contactame <i class="fa fa-arrow-circle-o-down"
+                                    aria-hidden="true"></i>
                             </a>
                         </div>
                     </div>
                     <div class="showcase-row-avatar">
-                        <img src="mifoto.jpg" alt="avatar">
+                        <img src="mi_foto.png" alt="avatar">
                     </div>
                 </div>
             </div>
@@ -44,11 +50,19 @@
             <div class="sobre-mi-row">
                 <div id="sobre-mi-row-bio">
                     <h4>Hola, <span id="camila">soy Camila Sarmiento</span></h4>
-                    <p>Estudiante de segundo año de la carrera terciaria de Desarrollo de Software en el Centro Universitario de Ituzaingó. Soy desarrolladora Web y Tester QA Manual. Inicie mis estudios del area IT en pandemia realizando cursos online de Testing QA y luego profundizandome informatica con cursos de Desarrollo web en React y Full Stack con Python.</p>
+                    <p>Estudiante de segundo año de la carrera de Desarrollo de Software en el Centro Regional
+                        Universitario de Ituzaingó. Desde que inicié mis estudios en el área IT durante la pandemia, he
+                        tenido la oportunidad de formarme como Desarrolladora Web y Tester QA Manual. Comencé con cursos
+                        online en Testing QA, y luego expandí mis conocimientos en desarrollo web, especializándome en
+                        tecnologías como React y en desarrollo Full Stack con Python. Actualmente, me enfoco en mi
+                        carrera mientras trabajo en la creación de sitios web. Me apasiona aprender y estoy siempre en
+                        búsqueda de nuevos desafíos que me permitan seguir creciendo profesionalmente. Además, me
+                        considero una persona que trabaja muy bien en equipo y estoy entusiasmada por la posibilidad de
+                        integrarme a una empresa donde pueda aportar mis habilidades y seguir aprendiendo.</p>
                 </div>
                 <div class="sobre-mi-row-exp">
                     <div id="container-exp">
-                        <h2 class="nnumber number ">2</h2>
+                        <h2 class="nnumber number ">3</h2>
                     </div>
                     <h4>Años de <span id="experiencia">experiencia</span></h4>
                 </div>
@@ -60,7 +74,8 @@
                 </div>
                 <div id="datos-email" class="datos">
                     <h6>E-Mail:</h6>
-                    <h5><a class=" menu-nav" href="mailto:sarmiento_camila@hotmail.com">sarmiento_camila@hotmail.com</a></h5>
+                    <h5><a class=" menu-nav" href="mailto:sarmiento_camila@hotmail.com">sarmiento_camila@hotmail.com</a>
+                    </h5>
                 </div>
                 <div id="datos-fecha" class="datos">
                     <h6>Fecha de nacimiento:</h6>
@@ -74,48 +89,41 @@
         </div>
     </section>
 
-    <section id="Servicios" class="section-content-grey ">
+    <section id="Servicios" class="py-5">
         <div class="container">
-            <div class="container-head">
-                <h5 class="center head centerheader">¿Que es lo que hago?</h5>
-                <h3 class="center">¿Como puedo ayudarte en tu siguiente proyecto?</h3>
-            </div>    
-            <div class="servicios-row">
-                <div id="graphic" class="services">
-                    <i class="fa-solid fa-palette"></i>
-                    <h4>Diseño Grafico</h4>
-                    <p>Muy buen manejo de herramientas como Adobe photoshop,
-                        Adobe XD, gimp, figma, sketch y frammer X.
-                    </p>
+            <h3 class="text-center mb-4">¿Qué es lo que hago?</h3>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <div class="card service-card">
+                        <div class="card-body">
+                            <i class="fa-solid fa-palette fa-3x mb-3"></i>
+                            <h4>Diseño Gráfico</h4>
+                            <p>Muy buen manejo de herramientas como Adobe Photoshop, Adobe XD, Figma, etc.</p>
+                        </div>
+                    </div>
                 </div>
-                <div id="web-des" class="services">
-                    <i class="fa-solid fa-desktop"></i>
-                    <h4>Diseño Web</h4>
-                    <p>Amplio conocimiento en HTML, CSS, Bootstrap, soluciones responsive.</p>
+                <div class="col-md-4">
+                    <div class="card service-card">
+                        <div class="card-body">
+                            <i class="fa-solid fa-desktop fa-3x mb-3"></i>
+                            <h4>Diseño Web</h4>
+                            <p>Amplio conocimiento en HTML, CSS, Bootstrap, soluciones responsive.</p>
+                        </div>
+                    </div>
                 </div>
-                <div id="web-dev" class="services">
-                    <i class="fa-solid fa-pen-ruler"></i>
-                    <h4>Desarrollo Web</h4>
-                    <p>Excelente manejo de Js, mysql, python, react </p>
-                </div>
-                <div id="testing" class="services">
-                    <i class="fa-solid fa-paintbrush"></i>
-                    <h4>Pruebas de Funcionalidad</h4>
-                    <p>Pruebas unitarias, pruebas de integracion, pruebas de sistema</p>
-                </div>
-                <div id="qa" class="services">
-                    <i class="fa-solid fa-chart-area"></i>
-                    <h4>Pruebas no Funcionales</h4>
-                    <p>Pruebas de rendimiento, pruebas de carga, pruebas de estres, pruebas de recuperacion</p>
-                </div>
-                <div id="digital" class="services">
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <h4>Marketing Digital</h4>
-                    <p>Estrategias de Marketing digital</p>
+                <div class="col-md-4">
+                    <div class="card service-card">
+                        <div class="card-body">
+                            <i class="fa-solid fa-pen-ruler fa-3x mb-3"></i>
+                            <h4>Desarrollo Web</h4>
+                            <p>Excelente manejo de JavaScript, MySQL, Python, React.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+
 
     <section id="resumen" class="section-content ">
         <div class="container">
@@ -126,19 +134,31 @@
             <div id="resumen-column">
                 <div class="My-education-column columnasexp">
                     <h4>Mi educacion</h4>
+
+                    <div id="carrera" class="educacion">
+                        <h5>Tecnicatura De Desarrollo de Software/ Centro Regional Universitario Ituzaingó</h5>
+                        <h6>2023-actualidad</h6>
+                        <p>Inicie la carrera de Desarrollo de Software, complete todo el primer año realizando 8
+                            materias a la perfeccion</p>
+                    </div>
+
                     <div id="Education-column" class="educacion">
                         <h5>Tecnicatura Química</h5>
                         <h6>Escuela Secundaria Tecnica n°1 "Republica del Paraguay"/ 2009-2014</h6>
                         <p>Secundario tecnico, donde me especializaba en el area de Química</p>
                     </div>
-                    
+
                     <div id="testingqa" class="educacion">
                         <h5>Testing QA</h5>
                         <h6>Codo a Codo 4.0/ 2022</h6>
-                        <p>Curso de Testing QA Manual, basado en casos de prueba, pruebas funcionales y no funcionales, automatización, reporte de errores.
-                            En este curso lo realice en Aprendizaje a lo largo de la vida dictado por Codo a codo 4.0, donde aprendí los fundamentos de la Calidad del Software, tipos y técnicas de pruebas. Cómo planificar, ejecutar y reportar pruebas. Evaluación de procesos y productos. Identificación y reporte de errores, como también la automatización de pruebas. </p>
+                        <p>Curso de Testing QA Manual, basado en casos de prueba, pruebas funcionales y no funcionales,
+                            automatización, reporte de errores.
+                            En este curso lo realice en Aprendizaje a lo largo de la vida dictado por Codo a codo 4.0,
+                            donde aprendí los fundamentos de la Calidad del Software, tipos y técnicas de pruebas. Cómo
+                            planificar, ejecutar y reportar pruebas. Evaluación de procesos y productos. Identificación
+                            y reporte de errores, como también la automatización de pruebas. </p>
                     </div>
-                  
+
                     <div id="Digitalers" class="educacion">
                         <h5>Desarrollador Frontend Digitalers/ Telecom</h5>
                         <h6>2022</h6>
@@ -151,20 +171,49 @@
                         <p>Curso de Full Stack con Python utilizando Vue js</p>
                     </div>
 
-                    <div id="carrera" class="educacion">
-                        <h5>Tecnicatura De Desarrollo de Software/ Centro Regional Universitario Ituzaingó</h5>
-                        <h6>2023-actualidad</h6>
-                        <p>Inicie la carrera de Desarrollo de Software, complete todo el primer año realizando 8 materias a la perfeccion</p>
+                    
+                    <div id="habilidades" class="educacion">
+                        <h4>Mis Habilidades y tecnologías</h4>
+                        <h5>FRONTEND:</h5>
+                        <p>HTML/CSS/Material UI/Bootstrap/Javascript/React/Responsive Design/Flask</p>
+                        <h5>API:</h5>
+                        <p>Rest API</p>
+                        <h5> BASE DE DATOS:</h5>
+                        <p>SQL/MySQL</p>
+                        <h5>BACKEND:</h5>
+                        <p>NodeJS,Django,Laravel</p>
+                        <h5>TESTING(Manual/Automatizado)</h5>
+                        <p>JMeter/ Spirateam/Selenium IDE/Jira</p>
+                        <h5>Lenguajes:</h5>
+                        <p>Python/Php/C/C++/Java</p>
                     </div>
+
 
 
                 </div>
                 <div class="My-experience-column columnasexp">
+
                     <h4>Mi perfil profesional</h4>
+
+                    <div id="diseño-huellitas" class="experiencia">
+                        <h5>Diseño web Hallando Huellas</h5>
+                        <h6>2024</h6>
+                        <p>Diseño de pagina web para rastreo de mascotas perdidas</p>
+                    </div>
+                    <div id="diseño-FabricPasta" class="experiencia">
+                        <h5>Diseño web Fabrica de Pastas Santa María</h5>
+                        <h6>2023</h6>
+                        <p>Diseño de pagina web con wordpress</p>
+                    </div>
+                    <div id="diseño-JMCreaciones" class="experiencia">
+                        <h5>Diseño de sitio web JM Creaciones</h5>
+                        <h6> 2022</h6>
+                        <p>Diseño para local de articulos regionales</p>
+                    </div>
                     <div id="autonomo" class="experiencia">
                         <h5>Trabajo autonomo</h5>
                         <h6>Autonomo/ 2018-Actualidad</h5>
-                        <p>Trabajo familiar, manejo de marketing digital</p>
+                            <p>Trabajo familiar, manejo de marketing digital</p>
                     </div>
                     <div id="Casa-familia" class="experiencia">
                         <h5>Niñera en cada de familia</h5>
@@ -172,88 +221,108 @@
                         <p>Trabajo cuidando a niños de 0 a 14 años</p>
                     </div>
 
-                    <div  class="experiencia">
+                    <div class="experiencia">
                         <h5>Proyecto de crear un una pagina web para la universidad</h5>
                         <h6>Centro universitario Ituzaingo 2023-actualidad</h6>
-                        <p>Proyecto en el cual estudiantes de la carrera Desarrollo de Software realizamos una pagina para la universidad donde se puede encontrar toda la informacion. Aun se esta trabajando para mejorarla</p>
+                        <p>Proyecto en el cual estudiantes de la carrera Desarrollo de Software realizamos una pagina
+                            para la universidad donde se puede encontrar toda la informacion. Aun se esta trabajando
+                            para mejorarla</p>
                     </div>
-                    <div  class="experiencia">
+                    <div class="experiencia">
                         <h5>Proyecto de crear un chatbot para la universidad</h5>
                         <h6>Centro universitario Ituzaingo 2023-actualidad</h6>
-                        <p>Proyecto en el cual estudiantes de la carrera Desarrollo de Software realizamos un chatbot</p>
+                        <p>Proyecto en el cual estudiantes de la carrera Desarrollo de Software realizamos un chatbot
+                        </p>
                     </div>
                     <div id="negocio" class="experiencia">
                         <h5>Atencion al cliente,Cajera,Repositora</h5>
                         <h6>Supermercado Jumbo/ 2020-2022</h6>
-                        <p>Trabajo atendiendo clientes,manejo de caja y vuelto, controlando stock y reponiendo el mismo</p>
+                        <p>Trabajo atendiendo clientes,manejo de caja y vuelto, controlando stock y reponiendo el mismo
+                        </p>
                     </div>
 
                 </div>
             </div>
             <div id="skills">
                 <div class="container">
-                <h4>Mis Habilidades</h4>
-                <div class="skillbars">
-                        
-                        
-                    <div id="html-css">
-                        <p>HTML/CSS </p>
-                        <i class="fa-brands fa-html5 skill"></i>
-                    </div>
+                    <h4>Mis Habilidades</h4>
+                    <div class="skillbars">
 
-                    <div id="javascript">
-                        <p>Javascript</p>
-                        <i class="fa-brands fa-js skill"></i>
-                    </div>
 
-                    <div id="vue">
-                        <p>Vue Js</p>
-                        <i class="fa-brands fa-vuejs skill"></i>
-                    </div>
+                        <div id="html-css">
+                            <p>HTML/CSS </p>
+                            <i class="fa-brands fa-html5 skill"></i>
+                        </div>
 
-                
-                    <div id="React JS">
-                        <p>React Js </p>
-                        <i class="fa-brands fa-react skill"></i>
-                    </div>
+                        <div id="javascript">
+                            <p>Javascript</p>
+                            <i class="fa-brands fa-js skill"></i>
+                        </div>
 
-                    <div id="Python">
-                        <p>Python</p>
-                        <i class="fa-brands fa-python skill"></i>
-                    </div>
+                        <div id="vue">
+                            <p>Vue Js</p>
+                            <i class="fa-brands fa-vuejs skill"></i>
+                        </div>
 
-                    <div id="Bootstrap">
-                        <p>Bootstrap</p>
-                        <i class="fa-brands fa-bootstrap skill"></i>
-                    </div>
 
+                        <div id="React JS">
+                            <p>React Js </p>
+                            <i class="fa-brands fa-react skill"></i>
+                        </div>
+
+                        <div id="Python">
+                            <p>Python</p>
+                            <i class="fa-brands fa-python skill"></i>
+                        </div>
+
+                        <div id="Bootstrap">
+                            <p>Bootstrap</p>
+                            <i class="fa-brands fa-bootstrap skill"></i>
+                        </div>
+
+                    </div>
                 </div>
             </div>
-        </div>
     </section>
-    
+
     <section id="Portfolio" class=" portfolio section-content-grey ">
         <div class="container">
             <div class="container-head centerheader">
-                  <h5 class="center head">Portfolio</h5>
-                  <h3 class="center">Algunos de mis proyectos recientes</h3>
+                <h5 class="center head">Portfolio</h5>
+                <h3 class="center">Algunos de mis proyectos recientes</h3>
             </div>
-          
-        
+
+
             <div id="proyects-row-wrap">
-               
+
                 <div class="box">
+
+                    <div class="image">
+                        <img src="proyecto7.png" alt="proyect07">
+                    </div>
+                    <div class="content">
+                        <a href="https://landing-hallando-huellas.vercel.app/" class="title">Hallando Huellas Landing</a>
+                        <span>Ener. 2024</span>
+                        <p>Hallando Huellas, software para reúnete con tu mascota de manera rápida y segura. <br>
+                            Brindamos un servicio gratuito para protegerlos.</p>
+                        <a href="https://landing-hallando-huellas.vercel.app/" class="btn">Visitar</a>
+                    </div>
+                </div>
+
+                <div class="box">
+
                     <div class="image">
                         <img src="proyecto1.png" alt="proyect1">
                     </div>
                     <div class="content">
-                        <a href="https://camisarmiento.github.io/PetshopHuellitas/" class="title">Petshop Huellitas</a> 
+                        <a href="https://camisarmiento.github.io/PetshopHuellitas/" class="title">Petshop Huellitas</a>
                         <span>Sep. 2022</span>
-                        <p>Venta de productos para animales domésticos, alimentos de mascotas, baños y cortes de pelo e información de clinicas veterinarias abiertas</p>
+                        <p>Venta de productos para animales domésticos, alimentos de mascotas, baños y cortes de pelo e
+                            información de clinicas veterinarias abiertas. <br>¿Qué esperas? Ven a visitarnos en nuestra pagina</p>
                         <a href="https://camisarmiento.github.io/PetshopHuellitas/" class="btn">Visitar</a>
                     </div>
                 </div>
-            
+
                 <div class="box">
                     <div class="image">
                         <img src="proyecto2.jpeg" alt="proyect2">
@@ -261,20 +330,23 @@
                     <div class="content">
                         <a href="https://sarmientocamila.github.io/Page_University_Ituzaingo/" class="title">C.R.U.I</a>
                         <span>Mar. 2023 - act</span>
-                        <p>Centro Regional Universitario, junto a mis compañeros del primer año de la Tecnicatura en Desarrollo de Software desarrollamos la pagina de la institucion.</p>
+                        <p>Centro Regional Universitario de Ituzaingó, junto a mis compañeros del primer año de la Tecnicatura en
+                            Desarrollo de Software realizamos la primera versión de la pagina de la institucion.</p>
                         <a href="https://sarmientocamila.github.io/Page_University_Ituzaingo/" class="btn">Visitar</a>
                     </div>
                 </div>
-            
+
                 <div class="box">
                     <div class="image">
-                        <img src="proyecto3.png" alt="proyect3"> 
+                        <img src="proyecto_3.png" alt="proyect3">
                     </div>
                     <div class="content">
-                        <a href="https://camisarmiento.github.io/tarjetas_con_api/" class="title">Tarjetas de usuarios</a>
-                        <span>May. 2023</span>
-                        <p> Tarjetas de usuario usando una api Random user generator</p>
-                        <a href="https://camisarmiento.github.io/tarjetas_con_api/" class="btn">Visitar</a>
+                        <a href="https://github.com/SarmientoCamila/programa_contabilizarAlumnos" class="title"> Programa Materias 
+                            </a>
+                        <span>jun. 2024</span>
+                        <p> Programa hecho en python para incorporar a una base de datos los alumnos de una escuela. <br> 
+                            Tambien agiliza la gestión de contabilizar las materias a las que estan inscriptos los alumnos.</p>
+                        <a href="https://github.com/SarmientoCamila/programa_contabilizarAlumnos" class="btn">Visitar</a>
                     </div>
                 </div>
 
@@ -284,14 +356,66 @@
                         <img src="proyecto4.jpg" alt="proyect4">
                     </div>
                     <div class="content">
-                        <a href="https://sarmientocamila.github.io/tetris-js/" class="title">Juego Tetris</a> 
+                        <a href="https://sarmientocamila.github.io/tetris-js/" class="title">Juego Tetris</a>
                         <span>Ener. 2024</span>
-                        <p>Juego de Tetris utilizando simplemente javascript</p>
+                        <p>Juego de Tetris utilizando simplemente javascript
+                            <br>Volviendo a la infancia con este juego tan conocido del cual no te cansas de jugarlo. 
+                            El objetivo del Tetris es manipular diferentes formas geométricas, conocidas como tetrominos, que caen desde la parte superior de la pantalla.
+                        </p>
                         <a href="https://sarmientocamila.github.io/tetris-js/" class="btn">Visitar</a>
                     </div>
                 </div>
-            
-            
+
+                <div class="box">
+
+                    <div class="image">
+                        <img src="proyecto5.png" alt="proyect5">
+                    </div>
+                    <div class="content">
+                        <a href="https://github.com/SarmientoCamila/Juego_Naves" class="title">Juego de Naves</a>
+                        <span>oct. 2024</span>
+                        <p>Juego de Naves Hecho con python. <br>
+                            Los jugadores deben esquivar enemigos, recoger potenciadores y superar niveles cada vez más desafiantes. <br>
+                         Otro de los juegos de infancia que nunca se olvidan.</p>
+                        <a href="https://github.com/SarmientoCamila/Juego_Naves" class="btn">Visitar</a>
+                    </div>
+                </div>
+                <div class="box">
+
+                    <div class="image">
+                        <img src="proyecto6.png" alt="proyect6">
+                    </div>
+                    <div class="content">
+                        <a href="https://registro-mascota.vercel.app/" class="title">Hallando Huellas</a>
+                        <span>Actualidad</span>
+                        <p>Nuestra misión es utilizar la innovación de collares con QR y la tecnología avanzada para ofrecer tranquilidad a los dueños de mascotas, permitiéndoles rastrear a sus animales y garantizar su regreso seguro a casa.</p>
+                        <a href="https://registro-mascota.vercel.app/" class="btn">Visitar</a>
+                    </div>
+                </div>
+              
+                <div class="box">
+
+                    <div class="image">
+                        <img src="proyecto8.png" alt="proyect8">
+                    </div>
+                    <div class="content">
+                        <a href="https://github.com/SarmientoCamila/HamburgueseriaIT_python" class="title">Hamburguesería IT</a>
+                        <span>oct. 2024</span>
+                        <p>Pagiana para una Hamburguesería.HAMBURGUESAS IT es una empresa dedicada a la distribución directa de alimentos, sin intermediarios a los franquiciados con el afán de conquistar el mercado en todo el territorio Nacional.</p>
+                        <a href="https://github.com/SarmientoCamila/HamburgueseriaIT_python" class="btn">Visitar</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="content">
+                        <video src="proyecto9.mp4" controls width="100%" height="100%"></video>
+                        <h4>Santa María Fabrica de Pastas</h4>
+                        <span>mar. 2023
+                        </span>
+                    </div>
+                </div>
+
+
             </div>
         </div>
     </section>
@@ -301,7 +425,8 @@
             <div class="contact-row centerheader">
                 <div id="touch">
                     <h3>Mantegamos el Contacto</h3>
-                    <p>Estoy dispuesto a nuevos proyectos y desafios, por favor comparta tanta información como sea posible para que podamos aprovechar al máximo nuestra primera impresion.</p>
+                    <p>Estoy dispuesto a nuevos proyectos y desafios, por favor comparta tanta información como sea
+                        posible para que podamos aprovechar al máximo nuestra primera impresion.</p>
                     <div id="living-in">
                         <h5>Viviendo en:</h5>
                         <p>Ituzaingó, Buenos Aires, Argentina</p>
@@ -310,14 +435,17 @@
                     </div>
                     <div class="contact-icons">
                         <ul>
-                            <li><a href="https://api.whatsapp.com/send?phone=541167008959"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
-                            <li><a href="https://github.com/SarmientoCamila?tab=repositories"><i class="fa-brands fa-github"></i></a></li>
-                            <li><a href="https://www.linkedin.com/in/camila-sarmiento-62310523b/"><i class="fa-brands fa-linkedin-in"></i></i></a></li>
+                            <li><a href="https://api.whatsapp.com/send?phone=541167008959"><i class="fa fa-whatsapp"
+                                        aria-hidden="true"></i></a></li>
+                            <li><a href="https://github.com/SarmientoCamila?tab=repositories"><i
+                                        class="fa-brands fa-github"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/camila-sarmiento-62310523b/"><i
+                                        class="fa-brands fa-linkedin-in"></i></i></a></li>
                         </ul>
                     </div>
                 </div>
 
-                
+
             </div>
         </div>
     </section>
@@ -327,21 +455,23 @@
             <div id="footer-row">
                 <div id="copyright">
                     <p>&copy; 2024 Camila Mariel Sarmiento- Todos los derechos reservados</p>
-                <div id="design">
-                    <p>Diseñado por<a href="https://www.linkedin.com/in/camila-sarmiento-62310523b/"> Camila Mariel Sarmiento</a></p>
+                    <div id="design">
+                        <p>Diseñado por<a href="https://www.linkedin.com/in/camila-sarmiento-62310523b/"> Camila Mariel
+                                Sarmiento</a></p>
+                    </div>
                 </div>
             </div>
-        </div>
     </section>
-  
+
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
-        $(document).ready(function() {
-            $('#burgerIcon').click(function() {
+        $(document).ready(function () {
+            $('#burgerIcon').click(function () {
                 $('.ul-header').toggleClass('active');
             });
         });
     </script>
-    
+
 </body>
+
 </html>
